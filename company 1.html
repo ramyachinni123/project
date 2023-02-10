@@ -1,0 +1,151 @@
+<!Doctype>
+<html>
+    <head>
+        <title>company 1</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 1000%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}/* The dots/bullets/indicators */
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width:3000px) {
+  .text {font-size: 11px}
+}
+</style>
+    </head>
+    
+    <body>
+<div class="topnav">
+        <a href="homepage.html">Home</a>
+        <a href="company 1.html">ARK</a>
+        <a href="file:///C:/Users/allir/OneDrive/Desktop/Ramya/shanthasriram.html">shanthasriram</a>
+        <a href="file:///C:/Users/allir/OneDrive/Desktop/Ramya/company3.html">B L kashyapa</a>
+        <a href="file:///C:/Users/allir/OneDrive/Desktop/Ramya/APR.html">APR</a>
+        <a href="file:///C:/Users/allir/OneDrive/Desktop/Ramya/company.html">Arabindho</a>
+        <a href="file:///C:/Users/allir/Downloads/Contact.html" class="split">Contacts</a>
+    </div><br>
+       <center> <img src="https://arkgroup.in/wp-content/uploads/2021/03/logo-1.png" style="width:50%" style"height:50%"></center>
+        <marquee><center><h1> ARK Groups Above&Beyond</h1></center></marquee>
+      <center>  <img src="https://arkgroup.in/wp-content/uploads/2022/03/Samyak-1.jpeg" style="width:80%" style="height:80%"></center>
+        
+        <p>Aurobindo Realty & Infrastructure Pvt Ltd is the fastest-growing Indian Real Estate company. We are known for novelty and top-notch technology that is integrated to render luxurious residential and commercial spaces. Our projects are a true reflection of uncompromised quality driven by world-class design, finest aesthetic appeal, and unparalleled customer-centricity.</p>
+        
+        
+           
+               <h1><ins>projects:</ins></h1>
+      
+        <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://arkgroup.in/wp-content/uploads/2022/11/Ark-Oak-Tree.png" style="width:80%" style="height:80%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://arkgroup.in/wp-content/uploads/2021/03/mukunda-thm.png" style="width:80%" "height:80%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+  <img src="https://arkgroup.in/wp-content/uploads/2021/03/Ark-Cludcity.png" style="width:80%" style="height:80%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<hr>
+<h3><ins> Ark constructions :</ins></h3>
+
+<p>Ark Terminus Hamptons is an unmatched Residential property. The project offers plenty of benefits that includes prime location, comfortable and lavish lifestyle, great amenities, healthy surroundings.</p>
+
+<h3><ins> Ark Samyak :</ins></h3>
+
+<p>Ark Samyak is one of the most premium residential gated communities in Bachupally, Hyderabad that’s strategically located, luxuriously designed, prestigiously rated, affordably priced and abundantly accessorised. Also, it's planned, built, safety proofed and customised in a way that makes it completely kid-friendly!
+
+</p>
+<h3><ins>ARK Hema :</ins></h3>
+<p>The best way to learn more about Ark Homes is to visit the property. Plan your visit now
+</p>
+       </body>
+  </html>
